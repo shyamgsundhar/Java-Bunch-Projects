@@ -1,0 +1,27 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE hibernate-configuration PUBLIC-->
+<!--        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"-->
+<!--        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">-->
+<!--<hibernate-configuration>-->
+<!--    <session-factory>-->
+<!--        <property name="hibernate.connection.driver_class">-->
+<!--            org.postgresql.Driver-->
+<!--        </property>-->
+<!--        <property name="hibernate.connection.url">-->
+<!--            jdbc:postgresql://ep-raspy-sea-aixi8yaf-pooler.c-4.us-east-1.aws.neon.tech/neondb?sslmode=require&amp;channel_binding=require-->
+<!--        </property>-->
+<!--        <property name="hibernate.connection.username">-->
+<!--            neondb_owner-->
+<!--        </property>-->
+<!--        <property name="hibernate.connection.password">-->
+<!--            npg_7APEQ0rOJKHZ-->
+<!--        </property>-->
+<!--        <property name="hibernate.dialect">-->
+<!--            org.hibernate.dialect.PostgreSQLDialect-->
+<!--        </property>-->
+<!--        <property name="hibernate.show_sql">true</property>-->
+<!--        <property name="hibernate.format_sql">true</property>-->
+<!--        <property name="hibernate.hbm2ddl.auto">update</property>-->
+<!--        <mapping class="com.kovanlabs.studentmanagementsystemhibernate.model.StudentModel"/>-->
+<!--    </session-factory>-->
+<!--</hibernate-configuration>-->

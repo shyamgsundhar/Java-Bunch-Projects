@@ -1,0 +1,6 @@
+com\example\controller\HelloRestController.class
+com\example\model\RegistrationRequest.class
+com\example\controller\RegistrationController.class
+com\example\config\AppConfig.class
+com\example\config\WebAppInitializer.class
+com\example\model\User.class

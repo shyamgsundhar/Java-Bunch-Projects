@@ -1,0 +1,26 @@
+<configuration debug="true">
+
+    <!-- FILE Appender -->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>C:/Users/shyam/handleinterceptor/app.log</file>
+        <append>true</append>
+
+        <encoder>
+            <pattern>%d{HH:mm:ss} [%level] %logger - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- CONSOLE Appender -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss} [%level] %logger - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Root Logger -->
+    <root level="DEBUG">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+    </root>
+
+</configuration>

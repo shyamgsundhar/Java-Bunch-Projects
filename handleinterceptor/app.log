@@ -1,0 +1,178 @@
+12:54:24 [INFO] org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization started
+12:54:24 [DEBUG] org.springframework.web.context.support.AnnotationConfigWebApplicationContext - Refreshing Root WebApplicationContext
+12:54:24 [DEBUG] org.springframework.web.context.support.AnnotationConfigWebApplicationContext - Registering component classes: [class com.kovanlabs.handleinterceptor.config.AppConfig]
+12:54:25 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+12:54:25 [DEBUG] org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\shyam\handleinterceptor\target\handleinterceptor\WEB-INF\classes\com\kovanlabs\handleinterceptor\config\WebConfig.class]
+12:54:25 [DEBUG] org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\shyam\handleinterceptor\target\handleinterceptor\WEB-INF\classes\com\kovanlabs\handleinterceptor\controller\ProductController.class]
+12:54:25 [DEBUG] org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\shyam\handleinterceptor\target\handleinterceptor\WEB-INF\classes\com\kovanlabs\handleinterceptor\interceptor\LoggingInterceptor.class]
+12:54:25 [DEBUG] org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\shyam\handleinterceptor\target\handleinterceptor\WEB-INF\classes\com\kovanlabs\handleinterceptor\service\ProductService.class]
+12:54:25 [DEBUG] org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\shyam\handleinterceptor\target\handleinterceptor\WEB-INF\classes\com\kovanlabs\handleinterceptor\config\AppConfig.class]
+12:54:25 [DEBUG] org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\shyam\handleinterceptor\target\handleinterceptor\WEB-INF\classes\com\kovanlabs\handleinterceptor\controller\ProductController.class]
+12:54:25 [DEBUG] org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\shyam\handleinterceptor\target\handleinterceptor\WEB-INF\classes\com\kovanlabs\handleinterceptor\interceptor\LoggingInterceptor.class]
+12:54:25 [DEBUG] org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\shyam\handleinterceptor\target\handleinterceptor\WEB-INF\classes\com\kovanlabs\handleinterceptor\service\ProductService.class]
+12:54:26 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+12:54:26 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+12:54:26 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+12:54:26 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+12:54:26 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfig'
+12:54:26 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'webConfig'
+12:54:26 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'loggingInterceptor'
+12:54:26 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productController'
+12:54:26 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productService'
+12:54:26 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+12:54:26 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+12:54:26 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcApiVersionStrategy'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcConversionService'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcApiVersionStrategy'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+12:54:27 [DEBUG] _org.springframework.web.servlet.HandlerMapping.Mappings - 
+	c.k.h.c.ProductController:
+	{GET [/products/{id}]}: getProduct(int)
+	{POST [/products]}: createProduct(ProductModel)
+	{PUT [/products]}: updateProduct(ProductModel)
+	{DELETE [/products/{id}]}: deleteProduct(int)
+12:54:27 [DEBUG] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcPatternParser'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUrlPathHelper'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcPathMatcher'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'beanNameHandlerMapping'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+12:54:27 [DEBUG] _org.springframework.web.servlet.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'routerFunctionMapping'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcApiVersionStrategy'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'resourceHandlerMapping'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcValidator'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+12:54:27 [DEBUG] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcViewResolver'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'localeResolver'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'handlerFunctionAdapter'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'handlerExceptionResolver'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+12:54:27 [DEBUG] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'flashMapManager'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewNameTranslator'
+12:54:27 [INFO] org.springframework.web.context.ContextLoader - Root WebApplicationContext initialized in 3137 ms
+12:54:27 [INFO] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcher'
+12:54:27 [DEBUG] org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/spring.profiles.active]
+12:54:27 [DEBUG] org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/spring.profiles.active] not found - trying original name [spring.profiles.active]. javax.naming.NameNotFoundException: Name [spring.profiles.active] is not bound in this Context. Unable to find [spring.profiles.active].
+12:54:27 [DEBUG] org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [spring.profiles.active]
+12:54:27 [DEBUG] org.springframework.jndi.JndiPropertySource - JNDI lookup for name [spring.profiles.active] threw NamingException with message: Name [spring.profiles.active] is not bound in this Context. Unable to find [spring.profiles.active].. Returning null.
+12:54:27 [DEBUG] org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [java:comp/env/spring.profiles.default]
+12:54:27 [DEBUG] org.springframework.jndi.JndiLocatorDelegate - Converted JNDI name [java:comp/env/spring.profiles.default] not found - trying original name [spring.profiles.default]. javax.naming.NameNotFoundException: Name [spring.profiles.default] is not bound in this Context. Unable to find [spring.profiles.default].
+12:54:27 [DEBUG] org.springframework.jndi.JndiTemplate - Looking up JNDI object with name [spring.profiles.default]
+12:54:27 [DEBUG] org.springframework.jndi.JndiPropertySource - JNDI lookup for name [spring.profiles.default] threw NamingException with message: Name [spring.profiles.default] is not bound in this Context. Unable to find [spring.profiles.default].. Returning null.
+12:54:27 [DEBUG] org.springframework.web.context.support.AnnotationConfigWebApplicationContext - Refreshing WebApplicationContext for namespace 'dispatcher-servlet'
+12:54:27 [DEBUG] org.springframework.web.context.support.AnnotationConfigWebApplicationContext - Registering component classes: [class com.kovanlabs.handleinterceptor.config.WebConfig]
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+12:54:27 [DEBUG] org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\shyam\handleinterceptor\target\handleinterceptor\WEB-INF\classes\com\kovanlabs\handleinterceptor\config\AppConfig.class]
+12:54:27 [DEBUG] org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\shyam\handleinterceptor\target\handleinterceptor\WEB-INF\classes\com\kovanlabs\handleinterceptor\controller\ProductController.class]
+12:54:27 [DEBUG] org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\shyam\handleinterceptor\target\handleinterceptor\WEB-INF\classes\com\kovanlabs\handleinterceptor\interceptor\LoggingInterceptor.class]
+12:54:27 [DEBUG] org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\shyam\handleinterceptor\target\handleinterceptor\WEB-INF\classes\com\kovanlabs\handleinterceptor\service\ProductService.class]
+12:54:27 [DEBUG] org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\shyam\handleinterceptor\target\handleinterceptor\WEB-INF\classes\com\kovanlabs\handleinterceptor\config\WebConfig.class]
+12:54:27 [DEBUG] org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\shyam\handleinterceptor\target\handleinterceptor\WEB-INF\classes\com\kovanlabs\handleinterceptor\controller\ProductController.class]
+12:54:27 [DEBUG] org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\shyam\handleinterceptor\target\handleinterceptor\WEB-INF\classes\com\kovanlabs\handleinterceptor\interceptor\LoggingInterceptor.class]
+12:54:27 [DEBUG] org.springframework.context.annotation.ClassPathBeanDefinitionScanner - Identified candidate component class: file [C:\Users\shyam\handleinterceptor\target\handleinterceptor\WEB-INF\classes\com\kovanlabs\handleinterceptor\service\ProductService.class]
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'webConfig'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'loggingInterceptor'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'appConfig'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productController'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'productService'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestMappingHandlerMapping'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcContentNegotiationManager'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcApiVersionStrategy'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcConversionService'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcResourceUrlProvider'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcApiVersionStrategy'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcConversionService'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+12:54:27 [DEBUG] _org.springframework.web.servlet.HandlerMapping.Mappings - 
+	c.k.h.c.ProductController:
+	{GET [/products/{id}]}: getProduct(int)
+	{POST [/products]}: createProduct(ProductModel)
+	{PUT [/products]}: updateProduct(ProductModel)
+	{DELETE [/products/{id}]}: deleteProduct(int)
+12:54:27 [DEBUG] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 4 mappings in 'requestMappingHandlerMapping'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcPatternParser'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUrlPathHelper'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcPathMatcher'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewControllerHandlerMapping'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcConversionService'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'viewControllerHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'beanNameHandlerMapping'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcConversionService'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'beanNameHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+12:54:27 [DEBUG] _org.springframework.web.servlet.HandlerMapping.Mappings - 'beanNameHandlerMapping' {}
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'routerFunctionMapping'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcConversionService'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcResourceUrlProvider'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'routerFunctionMapping' via factory method to bean named 'mvcApiVersionStrategy'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'resourceHandlerMapping'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcContentNegotiationManager'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcConversionService'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'resourceHandlerMapping' via factory method to bean named 'mvcResourceUrlProvider'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'defaultServletHandlerMapping'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'requestMappingHandlerAdapter'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcValidator'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcContentNegotiationManager'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcConversionService'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'requestMappingHandlerAdapter' via factory method to bean named 'mvcValidator'
+12:54:27 [DEBUG] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 2 RequestBodyAdvice, 1 ResponseBodyAdvice
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcViewResolver'
+12:54:27 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'mvcViewResolver' via factory method to bean named 'mvcContentNegotiationManager'
+12:54:28 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'localeResolver'
+12:54:28 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'handlerFunctionAdapter'
+12:54:28 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'mvcUriComponentsContributor'
+12:54:28 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'mvcConversionService'
+12:54:28 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'mvcUriComponentsContributor' via factory method to bean named 'requestMappingHandlerAdapter'
+12:54:28 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'httpRequestHandlerAdapter'
+12:54:28 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'simpleControllerHandlerAdapter'
+12:54:28 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'handlerExceptionResolver'
+12:54:28 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'handlerExceptionResolver' via factory method to bean named 'mvcContentNegotiationManager'
+12:54:28 [DEBUG] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+12:54:28 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'flashMapManager'
+12:54:28 [DEBUG] org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'viewNameTranslator'
+12:54:28 [DEBUG] org.springframework.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+12:54:28 [DEBUG] org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@54278190
+12:54:28 [DEBUG] org.springframework.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@b8d3d08
+12:54:28 [DEBUG] org.springframework.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+12:54:28 [INFO] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 195 ms
+12:54:28 [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/handleinterceptor_war_exploded/", parameters={}
+12:54:28 [WARN] org.springframework.web.servlet.PageNotFound - No mapping for GET /handleinterceptor_war_exploded/
+12:54:28 [WARN] org.springframework.web.servlet.PageNotFound - No endpoint GET /handleinterceptor_war_exploded/.
+12:54:28 [DEBUG] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /handleinterceptor_war_exploded/.]
+12:54:28 [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+12:54:29 [DEBUG] org.springframework.web.servlet.DispatcherServlet - GET "/handleinterceptor_war_exploded/", parameters={}
+12:54:29 [WARN] org.springframework.web.servlet.PageNotFound - No mapping for GET /handleinterceptor_war_exploded/
+12:54:29 [WARN] org.springframework.web.servlet.PageNotFound - No endpoint GET /handleinterceptor_war_exploded/.
+12:54:29 [DEBUG] org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.servlet.NoHandlerFoundException: No endpoint GET /handleinterceptor_war_exploded/.]
+12:54:29 [DEBUG] org.springframework.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
